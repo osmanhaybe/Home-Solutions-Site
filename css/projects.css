@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* { 
+  box-sizing: border-box;
+}
+
+.text-primary {
+  color: #169DE1;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background: #f3f3f3;
+  font-family: 'Montserrat';
+  height: 100vh;
+
+}
+.wrapper{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 2em;
+  color: #169DE1;
+}
+
+h2 {
+  text-align: left;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+h2 a:hover {
+  color: #169DE1;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+aside {
+  padding: 10px 30px;
+  width: 250px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #169DE1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: bold;
+
+}
+
+main {
+  flex: 1;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #169DE1;
+}
+
+#main ul, 
+.projects ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25em;
+}
+
+.projects ul li {
+  margin-right: 20px;
+  text-align: left;
+}
+
+
+#main ul li {
+  font-size: 1.5em;
+  text-align: left;
+  margin-right: 35px;
+  text-decoration: underline;
+  color: #169DE1;
+}
+
+.projects ul li:hover {
+  color: #169DE1;
+}
+
+h3 {
+  color: #000;
+}
