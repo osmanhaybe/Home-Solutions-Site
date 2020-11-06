@@ -6,7 +6,7 @@ const projects = document.querySelectorAll('.projects');
 
 
 function displayAll() {
-  displayTotal.innerHTML = "";
+  //displayTotal.innerHTML = "";
   projects.forEach(function(project) {
   if (project.classList.contains('hide')){
     project.classList.remove('hide');
@@ -15,7 +15,7 @@ function displayAll() {
 }
 
 function displayOld(){
-  displayTotal.innerHTML = "";
+  //displayTotal.innerHTML = "";
   projects.forEach(function(project) {
     if (project.classList.contains('pending')){
       project.classList.add('hide');
@@ -26,7 +26,7 @@ function displayOld(){
   }
 
 function displayNew(){
-  displayTotal.innerHTML = "";
+  //displayTotal.innerHTML = "";
   projects.forEach(function(project) {
     if (project.classList.contains('completed')){
       project.classList.add('hide');

@@ -236,14 +236,15 @@ h3 {
   padding-top: 40px;
 } 
 
-.request-form .btn {
+button {
   width: 104%;
   margin: 0;
   margin-top: 20px;
   cursor: pointer;
   /* Important for allowing margins/padding/height and no line break */
   background-color: #169DE1;
-  padding: 0;
+  padding: 1em;
+  font-size: 1em;
   color: #fff;
   border: none;
   border-radius: 5px;
