@@ -64,7 +64,7 @@ html {
 
 nav a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 ul {
@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 h1 a {
-  font-size: 27px;
+  font-size: 1em;
 }
 
 h1 a:hover {
@@ -199,14 +199,16 @@ h3 {
   width: 100%;
   justify-content: center;
   background-color: #f4f4f4;
+  padding: 2em;
  
 }
 
 .contact{
-  width: 50%;
+  width: 100%;
   text-align: center;
   display: block;
   margin-bottom: 10px;
+  max-width: 500px;
   
 }
 
@@ -281,6 +283,7 @@ button {
 footer p {
   color: #fff;
   text-decoration: none;
+  font-size: 0.8em;
 }
 
 @media(max-width: 1075px) {
@@ -318,7 +321,7 @@ footer p {
   }
 
   .hide-big img {
-    width: 25px;
+    width: 1.5em;
     padding-top: 0.2em;
   }
 
@@ -349,7 +352,7 @@ footer p {
     
   }
   nav a {
-    font-size: 18px;
+    font-size: 1em;
   }
   nav a:hover {
     font-size: 1.25em;
@@ -358,6 +361,17 @@ footer p {
 }
 
 @media(max-width: 550px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .navbar h1 a {
+    font-size: 0.75em;
+    margin-left: 0;
+  }
+
+
   .team {
     grid-gap: 10px;
   }
@@ -367,8 +381,18 @@ footer p {
   }
 }
 
+@media(max-width: 450px) {
+  body {
+    font-size: 13px;
+  }
+}
 @media(max-width: 375px) {
 
+  body {
+    font-size: 12px;
+  }
+
+  
   #slider {
     height: 50vh;
   }
@@ -378,6 +402,17 @@ footer p {
 }
 }
 
+@media(max-width: 320px) {
+  body {
+    font-size: 11px;
+  }
+
+  .navbar h1 a {
+    font-size: 0.6em;
+    margin-left: 0;
+  }
+
+}
 
 
 
