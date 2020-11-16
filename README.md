@@ -2,7 +2,7 @@
 
 -This project is a a live responsive concept for a contractor business website with a sleek look, and a free estimate form to generate leads.
 
-Live Website: https://launchgood-campaignclone.netlify.app/
+Live Website: https://home-solutions.netlify.app
 
 Tech/framework used:
 
